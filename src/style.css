@@ -36,6 +36,9 @@ h1 {
 }
 
 #app {
+  font-family: "fot-tsukuaoldmin-pr6n", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
