@@ -27,6 +27,15 @@ jobs:
 
       - name: TypeScriptをビルド
         run: npm run build
+        
+      - name: FTPでアップロード
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist/
+          server-dir: ${{ secrets.FTP_REMOTE_PATH }}
 
       - name: ビルド成果物をGitHub Pages用にデプロイ
         uses: actions/upload-pages-artifact@v3
@@ -44,11 +53,3 @@ jobs:
       - name: GitHub Pagesにデプロイ
         uses: actions/deploy-pages@v4
         
-      - name: FTPでアップロード
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
-        with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
-          server-dir: ${{ secrets.FTP_REMOTE_PATH }}
