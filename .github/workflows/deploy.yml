@@ -1,0 +1,45 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - develop  # mainブランチにプッシュされたときに実行
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Node.jsをセットアップ
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      - name: 依存関係をインストール
+        run: npm install
+
+      - name: TypeScriptをビルド
+        run: npm run build
+
+      - name: ビルド成果物をGitHub Pages用にデプロイ
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist  # ビルド成果物のディレクトリ
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+
+    steps:
+      - name: GitHub Pagesにデプロイ
+        uses: actions/deploy-pages@v4
