@@ -3,6 +3,15 @@ import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 
+(function () {
+  const userAgent = navigator.userAgent;
+
+  // Edge (旧EdgeとChromium版Edge) または Internet Explorer の判定
+  if (userAgent.includes("Edg") || userAgent.includes("Trident") || userAgent.includes("MSIE")) {
+      window.location.href = "https://www.google.com/intl/ja_jp/chrome/"; // リダイレクト先を指定
+  }
+})();
+
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <a href="https://vite.dev" target="_blank">
