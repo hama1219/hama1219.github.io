@@ -7,12 +7,14 @@ import { setupCounter } from './counter.ts'
   const userAgent = navigator.userAgent;
 
   if (userAgent.includes("Edg") || userAgent.includes("Trident") || userAgent.includes("MSIE")) {
-      document.body.innerHTML = "<h2>このページはEdgeまたはInternet Exploerでは表示できません<br /> GoogleChrome、FirefoxまたはSafari等でのご利用をお願いいたします。</h2>";
+      document.body.innerHTML = "<h2 class='root'>このページはEdgeまたはInternet Exploerでは表示できません<br /> GoogleChrome、FirefoxまたはSafari等でのご利用をお願いいたします。</h2>";
       setTimeout(() => {
           window.location.href = "https://www.google.com/intl/ja_jp/chrome/";
       }, 5000);
   }
 })();
+
+
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
