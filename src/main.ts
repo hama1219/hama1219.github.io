@@ -6,9 +6,11 @@ import { setupCounter } from './counter.ts'
 (function () {
   const userAgent = navigator.userAgent;
 
-  // Edge (旧EdgeとChromium版Edge) または Internet Explorer の判定
   if (userAgent.includes("Edg") || userAgent.includes("Trident") || userAgent.includes("MSIE")) {
-      window.location.href = "https://www.google.com/intl/ja_jp/chrome/"; // リダイレクト先を指定
+      document.body.innerHTML = "<h2>このページはEdgeまたはInternet Exploerでは表示できません<br /> GoogleChrome、FirefoxまたはEdgeでのご利用をお願いいたします。</h2>";
+      setTimeout(() => {
+          window.location.href = "https://www.google.com/intl/ja_jp/chrome/";
+      }, 5000);
   }
 })();
 
