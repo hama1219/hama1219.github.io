@@ -16,6 +16,8 @@ export default defineConfig({
         main: resolve(__dirname, 'project/index.html'),
         nested: resolve(__dirname, 'project/20251122reminise/index.html'),
         download: resolve(__dirname, 'project/20251122reminise/download.html'),
+        reminiscence: resolve(__dirname, 'project/discography/Reminiscence.html'),
+        lobelia: resolve(__dirname, 'project/discography/Lobelia.html'),
       },
     },
   },
