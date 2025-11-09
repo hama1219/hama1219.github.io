@@ -99,3 +99,23 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.title{
+font-family: "fot-tsukuaoldmin-pr6n",system-ui, Avenir, Helvetica, Arial, sans-serif;
+   font-size: 5em;
+   position: fixed;
+   top: 0.005em;
+   left:0.2em;
+}
+
+.header_line{
+   position: fixed;
+   top: 7em;
+   left:0.2em;
+   width:1000em
+}
+.new_release_img{
+  position: fixed;
+   top: 10em;
+   left:3em; 
+}

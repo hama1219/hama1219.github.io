@@ -24,7 +24,7 @@ import { setupCounter } from './counter.ts'
           window.location.href = "https://www.google.com/intl/ja_jp/chrome/";
       }, 5000);
   }
-})();
+});
 
 
 
@@ -46,4 +46,3 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </div>
 `
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
