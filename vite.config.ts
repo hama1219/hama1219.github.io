@@ -13,8 +13,8 @@ export default defineConfig({
      build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
-        nested: resolve(__dirname, '20251122reminise/index.html'),
+        main: resolve(__dirname, 'project/index.html'),
+        nested: resolve(__dirname, 'project/src/20251122reminise/index.html'),
       },
     },
   },
