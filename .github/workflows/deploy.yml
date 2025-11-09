@@ -7,6 +7,8 @@ on:
 
 permissions:
   contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -31,7 +33,7 @@ jobs:
       - name: ビルド成果物をGitHub Pages用にデプロイ
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist  # ビルド成果物のディレクトリ
+          path: ./project/dist  # ビルド成果物のディレクトリ
 
   deploy:
     needs: build
