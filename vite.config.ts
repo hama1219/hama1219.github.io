@@ -15,6 +15,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'project/index.html'),
         nested: resolve(__dirname, 'project/20251122reminise/index.html'),
+        download: resolve(__dirname, 'project/20251122reminise/download.html'),
       },
     },
   },
