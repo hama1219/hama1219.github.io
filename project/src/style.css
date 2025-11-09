@@ -119,3 +119,20 @@ font-family: "fot-tsukuaoldmin-pr6n",system-ui, Avenir, Helvetica, Arial, sans-s
    top: 10em;
    left:3em; 
 }
+.new_release_info_table{
+    position: fixed;
+       top: 10em;
+          left:47em; 
+}
+.table_inner_title{
+    font-size: 2.0em;
+}
+.table_inner_event{
+   font-size: 1.3em;
+}
+.table_inner_price{
+   font-size: 1.3em;
+}
+.table_inner_shop{
+   font-size: 1.1em;
+}
