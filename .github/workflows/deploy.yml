@@ -26,7 +26,6 @@ jobs:
 
       - name: 依存関係をインストール
         run: npm install
-        run: npm i @types/node -D
 
       - name: TypeScriptをビルド
         run: npm run build
