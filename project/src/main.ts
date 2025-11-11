@@ -5,6 +5,8 @@ import { setupCounter } from './counter.ts'
 
 (function () {
   const userAgent = navigator.userAgent;
+  // 例: favicon を設定
+  setFavicon('/favicon.ico');
 
   if (userAgent.includes("Edg") || userAgent.includes("Trident") || userAgent.includes("MSIE")) {
       document.body.innerHTML =  `
@@ -26,23 +28,18 @@ import { setupCounter } from './counter.ts'
   }
 });
 
+// favicon を設定する関数
+function setFavicon(url:string) {
+  const link = document.createElement('link');
+  link.rel = 'icon';
+  link.href = url;
 
+  // 既存の favicon があれば削除
+  const existingIcons = document.querySelectorAll('link[rel="icon"], link[rel="shortcut icon"]');
+  existingIcons.forEach(el => el.remove());
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
-    </a>
-    <h1>Vite + TypeScript</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
-  </div>
-`
+  // head に追加
+  document.head.appendChild(link);
+}
+
 
