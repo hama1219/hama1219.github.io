@@ -18,6 +18,7 @@ export default defineConfig({
         download: resolve(__dirname, 'project/20251122reminise/download.html'),
         reminiscence: resolve(__dirname, 'project/discography/Reminiscence.html'),
         lobelia: resolve(__dirname, 'project/discography/Lobelia.html'),
+        Angraecum: resolve(__dirname, 'project/discography/Angraecum.html'),
       },
     },
   },
