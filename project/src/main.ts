@@ -3,10 +3,12 @@ import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 
+const faviconUrl = new URL('../favicon.ico', import.meta.url).href;
+
 (function () {
   const userAgent = navigator.userAgent;
-  // 例: favicon を設定
-  setFavicon('/favicon.ico');
+
+  setFavicon(faviconUrl);
 
   if (userAgent.includes("Edg") || userAgent.includes("Trident") || userAgent.includes("MSIE")) {
       document.body.innerHTML =  `
@@ -26,20 +28,17 @@ import { setupCounter } from './counter.ts'
           window.location.href = "https://www.google.com/intl/ja_jp/chrome/";
       }, 5000);
   }
-});
+})();
 
-// favicon を設定する関数
-function setFavicon(url:string) {
+function setFavicon(url: string) {
   const link = document.createElement('link');
   link.rel = 'icon';
+  link.type = 'image/x-icon';
   link.href = url;
 
-  // 既存の favicon があれば削除
   const existingIcons = document.querySelectorAll('link[rel="icon"], link[rel="shortcut icon"]');
   existingIcons.forEach(el => el.remove());
 
-  // head に追加
   document.head.appendChild(link);
 }
-
 
