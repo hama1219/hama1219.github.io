@@ -1,9 +1,11 @@
 name: Deploy to GitHub Pages
 
 on:
-  push:
+  pull_request:
+    types:
+      - closed
     branches:
-      - develop  # mainブランチにプッシュされたときに実行
+      - develop
 
 permissions:
   contents: read
@@ -12,11 +14,14 @@ permissions:
 
 jobs:
   build:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
     steps:
       - name: リポジトリをチェックアウト
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.merge_commit_sha }}
 
       - name: Node.jsをセットアップ
         uses: actions/setup-node@v4
