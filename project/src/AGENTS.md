@@ -46,6 +46,7 @@
 
 - `main.ts` は `/main.ts` を読み込むすべてのページで共有されます。
 - 共有処理を変更する場合は、すべての HTML エントリーポイントとの互換性を維持します。
+- `project/src/download/` 配下に配置した `.html` ファイルは、`discography/` 配下と同様に `vite.config.ts` で自動収集され、すべて build input に含まれます。
 - 現在の主な役割は次のとおりです。
   - `style.css` の import
   - `favicon.ico` を使った favicon 設定
