@@ -1,4 +1,4 @@
-# AGENT.md
+# AGENTS.md
 
 このディレクトリ内の HTML は、`project/src/Templete/Template.html` をテンプレートとして使用して実装します。
 
