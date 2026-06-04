@@ -8,6 +8,9 @@
 - `head` はテンプレートの内容をそのまま使用します。
 - `body` 内のタグ構造と属性名はテンプレートと同一にします。
 - ページごとの差し替えは、テンプレート内の変数に対して KEY=VALUE 方式で管理します。
+- VALUE に `{NULL}` を定義した場合は、テンプレート上でその変数が含まれるタグに `hidden` 属性を付与して非表示にします。
+- `IMAGE_FILE_NAME`、`TITLE`、`EVENT_DATE_AND_NAME`、`PRICE` の VALUE に `{NULL}` を定義してはいけません。
+- HTML 生成の指示を受けた場合は、対象ファイルの段落に `IMAGE_FILE_NAME`、`TITLE`、`EVENT_DATE_AND_NAME`、`PRICE` がすべて記載されていることを先に確認します。未記載または `{NULL}` の場合は生成を STOP し、警告してください。
 - `discography/*.html` は `vite.config.ts` により自動で build input に含まれるため、個別に input 追加しません。
 
 ## 変数
@@ -18,6 +21,9 @@
 - PRICE=頒布価格
 - SHOP_URL=委託・頒布ページの URL
 - SHOP_LINK_TEXT=リンク表示文言
+
+VALUE には通常の文字列・文章・URL を指定します。`{NULL}` を指定した場合、その変数を含むタグは `hidden` 属性で非表示にします。
+ただし、`IMAGE_FILE_NAME`、`TITLE`、`EVENT_DATE_AND_NAME`、`PRICE` は人間が記載すべき必須定義のため、`{NULL}` の指定を禁止します。
 
 ## Angraecum.html
 
