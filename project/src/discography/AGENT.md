@@ -46,6 +46,15 @@
 - SHOP_URL=https://www.melonbooks.co.jp/detail/detail.php?product_id=3305530
 - SHOP_LINK_TEXT=委託（メロンブックス）
 
+## kagaribi.html
+
+- IMAGE_FILE_NAME=kagaribi.jpeg
+- TITLE=燎
+- EVENT_DATE_AND_NAME=2024.12.31(火) コミックマーケット C105
+- PRICE=￥1000
+- SHOP_URL=https://www.melonbooks.co.jp/detail/detail.php?product_id=2741047
+- SHOP_LINK_TEXT=委託（メロンブックス）
+
 ## 注意事項
 
 - 現在の `Reminiscence.html` には、テンプレートに存在しない YouTube iframe の試聴行があります。
