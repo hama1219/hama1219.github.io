@@ -1,14 +1,26 @@
 import './style.css'
 import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
+import viteLogo from './vite.svg'
 import { setupCounter } from './counter.ts'
 
-const faviconUrl = new URL('../favicon.ico', import.meta.url).href;
+type TypekitConfig = {
+  kitId: string;
+  scriptTimeout: number;
+  async: boolean;
+};
+
+type TypekitScriptElement = HTMLScriptElement & {
+  readyState?: string;
+  onreadystatechange?: () => void;
+};
+
+const faviconUrl = new URL('./favicon.ico', import.meta.url).href;
 
 (function () {
   const userAgent = navigator.userAgent;
 
   setFavicon(faviconUrl);
+  loadTypekit();
 
   if (userAgent.includes("Edg") || userAgent.includes("Trident") || userAgent.includes("MSIE")) {
       document.body.innerHTML =  `
@@ -40,5 +52,49 @@ function setFavicon(url: string) {
   existingIcons.forEach(el => el.remove());
 
   document.head.appendChild(link);
+}
+
+function loadTypekit() {
+  const kitId = 'top6hpz';
+  const scriptUrl = `https://use.typekit.net/${kitId}.js`;
+
+  if (document.querySelector(`script[src="${scriptUrl}"]`)) {
+    return;
+  }
+
+  const config: TypekitConfig = {
+    kitId,
+    scriptTimeout: 3000,
+    async: true,
+  };
+  const html = document.documentElement;
+  const timeout = window.setTimeout(() => {
+    html.className = html.className.replace(/\bwf-loading\b/g, '') + ' wf-inactive';
+  }, config.scriptTimeout);
+  const script = document.createElement('script') as TypekitScriptElement;
+  const firstScript = document.getElementsByTagName('script')[0];
+  let loaded = false;
+
+  html.className += ' wf-loading';
+  script.src = scriptUrl;
+  script.async = config.async;
+  script.onload = script.onreadystatechange = function () {
+    const readyState = script.readyState;
+
+    if (loaded || (readyState && readyState !== 'complete' && readyState !== 'loaded')) {
+      return;
+    }
+
+    loaded = true;
+    window.clearTimeout(timeout);
+
+    try {
+      const typekit = (window as Window & { Typekit?: { load: (config: TypekitConfig) => void } }).Typekit;
+      typekit?.load(config);
+    } catch {
+      // Keep the original Typekit snippet behavior: fail silently if loading is blocked.
+    }
+  };
+  firstScript.parentNode?.insertBefore(script, firstScript);
 }
 
