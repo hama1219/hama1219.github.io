@@ -6,4 +6,20 @@
 - EVENT_NAME=科学世紀のカフェテラス
 - PRICE=￥1000
 - SHOP_URL=https://www.melonbooks.co.jp/detail/detail.php?product_id=2566954
-- SHOP_LINK_TEXT=委託（メロンブックス）
+- SHOP_LINK_TEXT=<img src="../assets/logo.png" />
+- TRACK_TITLE_1=Lobelia
+- TRACK_SOURCE_1=禁断の扉の向こうは、この世かあの世か
+- TRACK_TITLE_2=Kalanchoe
+- TRACK_SOURCE_2=七夕坂に朝が来る
+- TRACK_TITLE_3=Physalis
+- TRACK_SOURCE_3=イザナギオブジェクト
+- TRACK_TITLE_4=Water Hyacinth
+- TRACK_SOURCE_4=ひとりぼっちの常陸航路
+- TRACK_TITLE_5=Apricot
+- TRACK_SOURCE_5=空中に沈む輝針城
+- TRACK_TITLE_6=AcruLaurus Nobilisx
+- TRACK_SOURCE_6=リーインカーネイション
+- TRACK_TITLE_7=Marigold
+- TRACK_SOURCE_7=彼岸帰航　～ Riverside View
+- TRACK_TITLE_8=Black Lily
+- TRACK_SOURCE_8=夜じゃなくてもお化けはいるから
