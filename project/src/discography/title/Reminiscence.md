@@ -7,6 +7,8 @@
 - PRICE=￥1000
 - SHOP_URL_MELLON=https://www.melonbooks.co.jp/detail/detail.php?product_id=3305530
 - SHOP_LINK_TEXT_MELLON=<img src="../assets/logo.png" />
+- SHOP_URL_BOOTH={NULL}
+- SHOP_LINK_TEXT_BOOTH={NULL}
 - TRACK_TITLE_1=幻想夜行 -acoustic edit.
 - TRACK_SOURCE_1=イザナギオブジェクト・ネクロファンタジア
 - TRACK_TITLE_2=Prelude

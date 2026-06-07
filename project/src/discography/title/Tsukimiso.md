@@ -7,6 +7,8 @@
 - PRICE=￥1000
 - SHOP_URL_MELLON=https://www.melonbooks.co.jp/detail/detail.php?product_id=1188850
 - SHOP_LINK_TEXT_MELLON=<img src="../assets/logo.png" />
+- SHOP_URL_BOOTH=https://touhougengakukyo.booth.pm/items/3548450
+- SHOP_LINK_TEXT_BOOTH=<img src="../assets/Booth.svg" />
 - TRACK_TITLE_1=百日草
 - TRACK_SOURCE_1=シンデレラケージ
 - TRACK_TITLE_2=花浜匙

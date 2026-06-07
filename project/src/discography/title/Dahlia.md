@@ -7,6 +7,8 @@
 - PRICE=￥800
 - SHOP_URL_MELLON=https://www.melonbooks.co.jp/detail/detail.php?product_id=1635307
 - SHOP_LINK_TEXT_MELLON=<img src="../assets/logo.png" />
+- SHOP_URL_BOOTH={NULL}
+- SHOP_LINK_TEXT_BOOTH={NULL}
 - TRACK_TITLE_1=Dahlia
 - TRACK_SOURCE_1=イザナギオブジェクト
 - TRACK_TITLE_2=Linden viburnum
