@@ -1,0 +1,37 @@
+# BestofIzanagiObject.html
+
+- IMAGE_FILE_NAME=BoI.jpg
+- TITLE=Best of Izanagi Object
+- EVENT_DATE=2023.12.31(日)
+- EVENT_NAME=コミックマーケット103
+- PRICE=￥1000
+- SHOP_URL=https://www.melonbooks.co.jp/detail/detail.php?product_id=2274428
+- SHOP_LINK_TEXT=<img src="../assets/logo.png" />
+- TRACK_TITLE_1=Barrenwort
+- TRACK_SOURCE_1=イザナギオブジェクト
+- TRACK_TITLE_2=葡萄
+- TRACK_SOURCE_2=イザナギオブジェクト
+- TRACK_TITLE_3=追憶
+- TRACK_SOURCE_3=イザナギオブジェクト
+- TRACK_TITLE_4=伊弉諾
+- TRACK_SOURCE_4=イザナギオブジェクト
+- TRACK_TITLE_5=千曳の岩
+- TRACK_SOURCE_5=イザナギオブジェクト
+- TRACK_TITLE_6=Olive
+- TRACK_SOURCE_6=イザナギオブジェクト
+- TRACK_TITLE_7=Cosmos
+- TRACK_SOURCE_7=イザナギオブジェクト
+- TRACK_TITLE_8=Dalmatian bellflower
+- TRACK_SOURCE_8=イザナギオブジェクト
+- TRACK_TITLE_9=Moondust
+- TRACK_SOURCE_9=イザナギオブジェクト
+- TRACK_TITLE_10=黄泉平坂
+- TRACK_SOURCE_10=イザナギオブジェクト
+- TRACK_TITLE_11=Dahlia
+- TRACK_SOURCE_11=イザナギオブジェクト
+- TRACK_TITLE_12=Naos
+- TRACK_SOURCE_12=イザナギオブジェクト
+- TRACK_TITLE_13=Kitalpha
+- TRACK_SOURCE_13=イザナギオブジェクト
+- TRACK_TITLE_14=Ammobium
+- TRACK_SOURCE_14=イザナギオブジェクト
