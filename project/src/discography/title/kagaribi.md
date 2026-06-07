@@ -6,7 +6,7 @@
 - EVENT_NAME=コミックマーケット C105
 - PRICE=￥1000
 - SHOP_URL=https://www.melonbooks.co.jp/detail/detail.php?product_id=2741047
-- SHOP_LINK_TEXT=委託（メロンブックス）
+- SHOP_LINK_TEXT=<img src="../assets/logo.png" />
 - TRACK_TITLE_1=燎
 - TRACK_SOURCE_1=春色小径　～ Colorful Path
 - TRACK_TITLE_2=巫

@@ -6,4 +6,20 @@
 - EVENT_NAME=科学世紀のカフェテラス
 - PRICE=￥1000
 - SHOP_URL=https://www.melonbooks.co.jp/detail/detail.php?product_id=3305530
-- SHOP_LINK_TEXT=委託（メロンブックス）
+- SHOP_LINK_TEXT=<img src="../assets/logo.png" />
+- TRACK_TITLE_1=幻想夜行 -acoustic edit.
+- TRACK_SOURCE_1=イザナギオブジェクト・ネクロファンタジア
+- TRACK_TITLE_2=Prelude
+- TRACK_SOURCE_2=桜花之恋塚　～ Japanese Flower
+- TRACK_TITLE_3=Premonition
+- TRACK_SOURCE_3=デザイアドライブ
+- TRACK_TITLE_4=Sorrow
+- TRACK_SOURCE_4=シュレディンガーの化猫
+- TRACK_TITLE_5=Grief
+- TRACK_SOURCE_5=Witch of Love Potion
+- TRACK_TITLE_6=Farewell
+- TRACK_SOURCE_6=ピュアヒューリーズ　～ 心の在処
+- TRACK_TITLE_7=Always
+- TRACK_SOURCE_7=他愛も無い二人の博物誌
+- TRACK_TITLE_8=Reminiscence
+- TRACK_SOURCE_8=童祭　～ Innocent Treasures
