@@ -1,0 +1,33 @@
+# Komorebi.html
+
+- IMAGE_FILE_NAME=komorebi.jpg
+- TITLE=木漏れ日の下で
+- EVENT_DATE=2019.05.05(日)
+- EVENT_NAME=博麗神社例大祭16
+- PRICE=￥1000
+- SHOP_URL_MELLON={NULL}
+- SHOP_LINK_TEXT_MELLON={NULL}
+- SHOP_URL_BOOTH=https://touhougengakukyo.booth.pm/items/1362828
+- SHOP_LINK_TEXT_BOOTH=<img src="../assets/Booth.svg" />
+- TRACK_TITLE_1=黄昏時の夕暮
+- TRACK_SOURCE_1=悠久の蒸気機関
+- TRACK_TITLE_2=雀色時
+- TRACK_SOURCE_2=死霊の夜桜
+- TRACK_TITLE_3=天の夕餉
+- TRACK_SOURCE_3=人形のある風景
+- TRACK_TITLE_4=夕雲
+- TRACK_SOURCE_4=緋想天
+- TRACK_TITLE_5=暮方
+- TRACK_SOURCE_5=有頂天変
+- TRACK_TITLE_6=薄暮
+- TRACK_SOURCE_6=少女綺想曲
+- TRACK_TITLE_7=春宵
+- TRACK_SOURCE_7=萃夢想
+- TRACK_TITLE_8=望月
+- TRACK_SOURCE_8=プレインエイジア・懐かしき東方の血
+- TRACK_TITLE_9=彼者誰時
+- TRACK_SOURCE_9=少女秘封倶楽部
+- TRACK_TITLE_10=木漏れ日の下で
+- TRACK_SOURCE_10=黒い海に紅く
+- TRACK_TITLE_11=光風霽月
+- TRACK_SOURCE_11=暁雲

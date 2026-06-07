@@ -1,19 +1,39 @@
-Angraecum.mdをコピーしてTsukimiso.mdをdiscography配下へ生成してください。
-TITLEは月見草を設定してください。
-IMAGE_FILE_NAMEはTsukimiso.jpgを設定してください
-EVENT_DATEは2021.12.31(日)
-EVENT_NAMEはコミックマーケット99
-SHOP_URLはhttps://www.melonbooks.co.jp/detail/detail.php?product_id=1188850
+Angraecum.mdをコピーしてKomorebi.mdをdiscography配下へ生成してください。
+TITLEは木漏れ日の下でを設定してください。
+IMAGE_FILE_NAMEはkomorebi.jpgを設定してください
+EVENT_DATEは2019.05.05(日)
+EVENT_NAMEは博麗神社例大祭16
+PRICEは￥1000
+SHOP_URL_BOOTHはhttps://touhougengakukyo.booth.pm/items/1362828
+SHOP_LINK_TEXT_BOOTHは<img src="../assets/Booth.svg" />
+SHOP_URL_MELLONとSHOP_LINK_TEXT_MELLONは{NULL}
 を設定してください。
 変数のうち、TRACK_TITLEとTRACK_SOURCEへは、以下のリストを反映してください。TRACK_TITLE_{number}にTr.{Number}を、TRACK_SOURCE_{number}に原曲{number}を反映してください。
 
-Tr.1 百日草
-原曲1 シンデレラケージ
-Tr.2 花浜匙
-原曲2 もう歌しか聞こえない
-Tr.3 水連
-原曲3 蠢々秋月
-Tr.4 月見草
-原曲4 Eternal Dream　～ 幽玄の槭樹/月見草
+Tr.1 黄昏時の夕暮
+原曲1 悠久の蒸気機関
+Tr.10 木漏れ日の下で
+原曲10 黒い海に紅く
+Tr.11 光風霽月
+原曲11 暁雲
+Tr.2 雀色時
+原曲2 死霊の夜桜
+Tr.3 天の夕餉
+原曲3 人形のある風景
+Tr.4 夕雲
+原曲4 緋想天
+Tr.5 暮方
+原曲5 有頂天変
+Tr.6 薄暮
+原曲6 少女綺想曲
+Tr.7 春宵
+原曲7 萃夢想
+Tr.8 望月
+原曲8 プレインエイジア・懐かしき東方の血
+Tr.9 彼者誰時
+原曲9 少女秘封倶楽部
 
-Tsukimiso.mdの生成が終わったら、そのままTemplete.htmlをベースにTsukimiso.htmlを生成してください。
+
+Komorebi.mdの生成が終わったら、そのままTemplete.htmlをベースにRurigiku.htmlを生成してください。
+
+

@@ -1,0 +1,43 @@
+# Rurigiku.html
+
+- IMAGE_FILE_NAME=rurigiku.jpg
+- TITLE=瑠璃菊
+- EVENT_DATE=2019.12.31(日)
+- EVENT_NAME=コミックマーケット９６
+- PRICE=￥1000
+- SHOP_URL_MELLON={NULL}
+- SHOP_LINK_TEXT_MELLON={NULL}
+- SHOP_URL_BOOTH=https://touhougengakukyo.booth.pm/items/4179487
+- SHOP_LINK_TEXT_BOOTH=<img src="../assets/Booth.svg" />
+- TRACK_TITLE_1=夕凪
+- TRACK_SOURCE_1=おてんば恋娘・ルーネイトエルフ
+- TRACK_TITLE_2=Olive
+- TRACK_SOURCE_2=イザナギオブジェクト
+- TRACK_TITLE_3=朝顔
+- TRACK_SOURCE_3=魔法使いの憂鬱
+- TRACK_TITLE_4=Dalmatian bellflower
+- TRACK_SOURCE_4=イザナギオブジェクト
+- TRACK_TITLE_5=Mandrake
+- TRACK_SOURCE_5=永遠の巫女
+- TRACK_TITLE_6=Belvedere
+- TRACK_SOURCE_6=レトロスペクティブ京都
+- TRACK_TITLE_7=蛍火
+- TRACK_SOURCE_7=Sacred Battle
+- TRACK_TITLE_8=Epilogue
+- TRACK_SOURCE_8=無間の鐘
+- TRACK_TITLE_9=Myosotis scorpioides
+- TRACK_SOURCE_9=無間の鐘
+- TRACK_TITLE_10=Nepenthes
+- TRACK_SOURCE_10=魔術師メリー
+- TRACK_TITLE_11=Aconitum
+- TRACK_SOURCE_11=パンデモニックプラネット
+- TRACK_TITLE_12=独白
+- TRACK_SOURCE_12=彼岸帰航
+- TRACK_TITLE_13=Aster tataricus
+- TRACK_SOURCE_13=少女秘封倶楽部
+- TRACK_TITLE_14=６：００AM
+- TRACK_SOURCE_14=U.N.オーエンは彼女なのか?
+- TRACK_TITLE_15=追憶
+- TRACK_SOURCE_15=イザナギオブジェクト
+- TRACK_TITLE_16=瑠璃菊
+- TRACK_SOURCE_16=ジャパニーズサーガ
