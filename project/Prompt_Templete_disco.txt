@@ -1,0 +1,28 @@
+Angraecum.mdをコピーしてSpica.mdをdiscography配下へ生成してください。
+TITLEはSpicaを設定してください。
+IMAGE_FILE_NAMEはSpica.jpgを設定してください
+EVENT_DATEは2023.05.07(日)
+EVENT_NAMEは博麗神社例大祭20
+を設定してください。
+変数のうち、TRACK_TITLEとTRACK_SOURCEへは、以下のリストを反映してください。TRACK_TITLE_{number}にTr.{Number}を、TRACK_SOURCE_{number}に原曲{number}を反映してください。
+
+Tr.1 Spica
+原曲1 過去の花
+Tr.2 Alrai
+原曲2 宇宙に浮かぶ幻想郷
+Tr.3 Kitalpha
+原曲3 イザナギオブジェクト
+Tr.4 Alphirk
+原曲4 日本中の不思議を集めて
+Tr.5 Albireo
+原曲5 永遠の三日天下
+Tr.6 Mirach
+原曲6 ハートフェルトファンシー
+Tr.7 Bellatrix
+原曲7 亡失のエモーション
+Tr.8 Arcturus
+原曲8 六十年目の東方裁判
+Tr.9 Canopus
+原曲9 故郷の星が映る海
+
+Spica.mdの生成が終わったら、そのままTemplete.htmlをベースにSpica.htmlを生成してください。

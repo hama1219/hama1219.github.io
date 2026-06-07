@@ -1,0 +1,27 @@
+# Spica.html
+
+- IMAGE_FILE_NAME=Spica.jpg
+- TITLE=Spica
+- EVENT_DATE=2023.05.07(日)
+- EVENT_NAME=博麗神社例大祭20
+- PRICE=￥1000
+- SHOP_URL=https://www.melonbooks.co.jp/detail/detail.php?product_id=1935489
+- SHOP_LINK_TEXT=<img src="../assets/logo.png" />
+- TRACK_TITLE_1=Spica
+- TRACK_SOURCE_1=過去の花
+- TRACK_TITLE_2=Alrai
+- TRACK_SOURCE_2=宇宙に浮かぶ幻想郷
+- TRACK_TITLE_3=Kitalpha
+- TRACK_SOURCE_3=イザナギオブジェクト
+- TRACK_TITLE_4=Alphirk
+- TRACK_SOURCE_4=日本中の不思議を集めて
+- TRACK_TITLE_5=Albireo
+- TRACK_SOURCE_5=永遠の三日天下
+- TRACK_TITLE_6=Mirach
+- TRACK_SOURCE_6=ハートフェルトファンシー
+- TRACK_TITLE_7=Bellatrix
+- TRACK_SOURCE_7=亡失のエモーション
+- TRACK_TITLE_8=Arcturus
+- TRACK_SOURCE_8=六十年目の東方裁判
+- TRACK_TITLE_9=Canopus
+- TRACK_SOURCE_9=故郷の星が映る海
