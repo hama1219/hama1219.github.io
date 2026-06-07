@@ -1,0 +1,25 @@
+# Halcyon.html
+
+- IMAGE_FILE_NAME=Halcyon.jpg
+- TITLE=Halcyon
+- EVENT_DATE=2023.8.12(土)
+- EVENT_NAME=コミックマーケット102
+- PRICE=￥1000
+- SHOP_URL=https://www.melonbooks.co.jp/detail/detail.php?product_id=2051620
+- SHOP_LINK_TEXT=<img src="../assets/logo.png" />
+- TRACK_TITLE_1=Bottle Gourd - Piano Edit
+- TRACK_SOURCE_1=悠久の蒸気機関
+- TRACK_TITLE_2=Erigeron annuus
+- TRACK_SOURCE_2=異変の種子
+- TRACK_TITLE_3=Ixia
+- TRACK_SOURCE_3=聖輦船空を往く
+- TRACK_TITLE_4=Gloriosa
+- TRACK_SOURCE_4=咲き誇る憑依華
+- TRACK_TITLE_5=A Queen of the Night
+- TRACK_SOURCE_5=恒常不変の参廟祀
+- TRACK_TITLE_6=Anagallis foemina
+- TRACK_SOURCE_6=天衣無縫
+- TRACK_TITLE_7=Halsyon
+- TRACK_SOURCE_7=今宵は飄逸なエゴイスト
+- TRACK_TITLE_8=Bottle Gourd - Acoustic Edit
+- TRACK_SOURCE_8=悠久の蒸気機関
