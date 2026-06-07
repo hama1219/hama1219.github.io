@@ -1,0 +1,27 @@
+# Denebold.html
+
+- IMAGE_FILE_NAME=Denebold.png
+- TITLE=Denebold
+- EVENT_DATE=2023.9.3(日)
+- EVENT_NAME=科学世紀のカフェテラス12
+- PRICE=￥1000
+- SHOP_URL=https://www.melonbooks.co.jp/detail/detail.php?product_id=2274427
+- SHOP_LINK_TEXT=<img src="../assets/logo.png" />
+- TRACK_TITLE_1=Naos
+- TRACK_SOURCE_1=イザナギオブジェクト
+- TRACK_TITLE_2=Aldebaran
+- TRACK_SOURCE_2=牛に引かれて善光寺参り
+- TRACK_TITLE_3=Polaris
+- TRACK_SOURCE_3=上海紅茶館　～ Chinese Tea
+- TRACK_TITLE_4=Algeiba
+- TRACK_SOURCE_4=七ツ石の狼、雲を取りに駆ける
+- TRACK_TITLE_5=Muphrid
+- TRACK_SOURCE_5=魔術師メリー
+- TRACK_TITLE_6=Acrux
+- TRACK_SOURCE_6=秘匿されたフォーシーズンズ
+- TRACK_TITLE_7=Tarazed
+- TRACK_SOURCE_7=無間の鐘
+- TRACK_TITLE_8=Elnath
+- TRACK_SOURCE_8=ネクロファンタジア
+- TRACK_TITLE_9=Denebold
+- TRACK_SOURCE_9=少女秘封倶楽部

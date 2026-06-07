@@ -139,11 +139,22 @@ font-family: "fot-tsukuaoldmin-pr6n",system-ui, Avenir, Helvetica, Arial, sans-s
 .table_inner_price{
    font-size: 1.3em;
 }
+.new_release_event_price_table_inner td{
+   font-size: 1.3em;
+}
+.new_release_event_price_table_inner tr{
+   font-size: 1em;
+}
+.new_release_info_table > table + table{
+   margin-top: 2em;
+}
+.shop_text{
+   font-size: 1.3em;
+}
 .table_inner_shop{
    font-size: 1.1em;
 }
 .new_release_track_list_table_inner{
-   margin-top: 0.8em;
    border-collapse: separate;
    border-spacing: 0.8em 0;
 }
