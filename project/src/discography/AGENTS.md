@@ -13,6 +13,7 @@
 - VALUE に `{NULL}` を定義した場合は、テンプレート上でその変数が含まれるタグに `hidden` 属性を付与して非表示にします。
 - `TRACK_TITLE_{Number}` と `TRACK_SOURCE_{Number}` の `{Number}` には数値が入ります。例えば `TRACK_TITLE_1` が定義されている場合は、HTML 内の `TRACK_TITLE_1` の値を差し替えます。
 - `project/src/Templete/Template.html` には `Number=1` のソースのみ存在します。`Number` に `2` 以上の数値が定義されている場合は、対応する変数の `table_inner_track_list_{Number}` クラスを持つタグ一式を追加し、値を差し替えます。
+- トラック行に `tr_number` クラスのタグが存在する場合は、`Number` と同じ数値で `Tr.{Number}` を設定します。例えば `table_inner_track_list_2` では `Tr.2` とします。
 - `TRACK_TITLE_{Number}` または `TRACK_SOURCE_{Number}` が定義されていない場合は、対応する `track_number_list_{Number}` タグ一式に `hidden` 属性を追加して非表示にします。
 - `IMAGE_FILE_NAME`、`TITLE`、`EVENT_DATE_AND_NAME`、`PRICE` の VALUE に `{NULL}` を定義してはいけません。
 - HTML 生成の指示を受けた場合は、対象ファイルに対応する `title/*.md` に `IMAGE_FILE_NAME`、`TITLE`、`EVENT_DATE_AND_NAME`、`PRICE` がすべて記載されていることを先に確認します。未記載または `{NULL}` の場合は生成を STOP し、警告してください。
