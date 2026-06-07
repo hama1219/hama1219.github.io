@@ -5,8 +5,10 @@
 - EVENT_DATE=2024.9.13(日)
 - EVENT_NAME=科学世紀のカフェテラス
 - PRICE=￥1000
-- SHOP_URL=https://www.melonbooks.co.jp/detail/detail.php?product_id=2566954
-- SHOP_LINK_TEXT=<img src="../assets/logo.png" />
+- SHOP_URL_MELLON=https://www.melonbooks.co.jp/detail/detail.php?product_id=2566954
+- SHOP_LINK_TEXT_MELLON=<img src="../assets/logo.png" />
+- SHOP_URL_BOOTH={NULL}
+- SHOP_LINK_TEXT_BOOTH={NULL}
 - TRACK_TITLE_1=Lobelia
 - TRACK_SOURCE_1=禁断の扉の向こうは、この世かあの世か
 - TRACK_TITLE_2=Kalanchoe
