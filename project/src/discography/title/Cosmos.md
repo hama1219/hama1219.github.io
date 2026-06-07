@@ -1,0 +1,27 @@
+# Cosmos.html
+
+- IMAGE_FILE_NAME=Cosmos.jpg
+- TITLE=Cosmos
+- EVENT_DATE=2022.1.10(日)
+- EVENT_NAME=科学世紀のカフェテラス10
+- PRICE=￥1000
+- SHOP_URL=https://www.melonbooks.co.jp/detail/detail.php?product_id=1195509
+- SHOP_LINK_TEXT=<img src="../assets/logo.png" />
+- TRACK_TITLE_1=Cosmos
+- TRACK_SOURCE_1=イザナギオブジェクト
+- TRACK_TITLE_2=Lisianthus
+- TRACK_SOURCE_2=ハルトマンの妖怪少女
+- TRACK_TITLE_3=Campanula
+- TRACK_SOURCE_3=月面ツアーへようこそ
+- TRACK_TITLE_4=Zinnia
+- TRACK_SOURCE_4=大空魔術
+- TRACK_TITLE_5=Heath
+- TRACK_SOURCE_5=53ミニッツの青い海
+- TRACK_TITLE_6=Lily of the valley
+- TRACK_SOURCE_6=向こう側の月
+- TRACK_TITLE_7=Chamommile
+- TRACK_SOURCE_7=ピュアヒューリーズ
+- TRACK_TITLE_8=Lilac
+- TRACK_SOURCE_8=夜のデンデラ野を逝く
+- TRACK_TITLE_9=Convolvulus
+- TRACK_SOURCE_9=少女秘封倶楽部

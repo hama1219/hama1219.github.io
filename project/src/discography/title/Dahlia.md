@@ -1,0 +1,23 @@
+# Dahlia.html
+
+- IMAGE_FILE_NAME=Dahlia.jpg
+- TITLE=Dahlia
+- EVENT_DATE=2022.9.11(日)
+- EVENT_NAME=科学世紀のカフェテラス11
+- PRICE=￥800
+- SHOP_URL=https://www.melonbooks.co.jp/detail/detail.php?product_id=1635307
+- SHOP_LINK_TEXT=<img src="../assets/logo.png" />
+- TRACK_TITLE_1=Dahlia
+- TRACK_SOURCE_1=イザナギオブジェクト
+- TRACK_TITLE_2=Linden viburnum
+- TRACK_SOURCE_2=アガルタの風
+- TRACK_TITLE_3=Crocus
+- TRACK_SOURCE_3=衛生トリフネ
+- TRACK_TITLE_4=Cercis chinensis
+- TRACK_SOURCE_4=衛星カフェテラス
+- TRACK_TITLE_5=Anemone
+- TRACK_SOURCE_5=レトロスペクティブ京都
+- TRACK_TITLE_6=Narcissus pseudonarcissus
+- TRACK_SOURCE_6=凍り付いた永遠の都
+- TRACK_TITLE_7=Lotus
+- TRACK_SOURCE_7=感情の摩天楼
