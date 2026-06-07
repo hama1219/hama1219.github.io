@@ -1,0 +1,24 @@
+# Angraecum.html
+
+- IMAGE_FILE_NAME=Angraecum.png
+- TITLE=Angraecum
+- EVENT_DATE_AND_NAME=2024.6.1(土) 科学世紀 魅知の旅
+- PRICE=￥1000
+- SHOP_URL=https://www.melonbooks.co.jp/detail/detail.php?product_id=2566953
+- SHOP_LINK_TEXT=委託（メロンブックス）
+- TRACK_TITLE_1=Lietinga Naktis -Piano Edit
+- TRACK_SOURCE_1=夜のデンデラ野を逝く
+- TRACK_TITLE_2=Angrecum
+- TRACK_SOURCE_2=過去の花　～ Fairy of Flower
+- TRACK_TITLE_3=Epimedium
+- TRACK_SOURCE_3=幻視の夜　～ Ghostly Eyes
+- TRACK_TITLE_4=Daphne odora
+- TRACK_SOURCE_4=幻想の永遠祭
+- TRACK_TITLE_5=Hypericum
+- TRACK_SOURCE_5=古の冥界寺
+- TRACK_TITLE_6=Syngonium
+- TRACK_SOURCE_6=東方妖々夢　～ Ancient Temple
+- TRACK_TITLE_7=Disentangle - Full Acoustic Edit
+- TRACK_SOURCE_7=夜のデンデラ野を逝く
+- TRACK_TITLE_8=Aster tataricus -rearrange
+- TRACK_SOURCE_8=少女秘封倶楽部
