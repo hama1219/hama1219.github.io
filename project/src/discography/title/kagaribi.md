@@ -6,3 +6,19 @@
 - PRICE=￥1000
 - SHOP_URL=https://www.melonbooks.co.jp/detail/detail.php?product_id=2741047
 - SHOP_LINK_TEXT=委託（メロンブックス）
+- TRACK_TITLE_1=燎
+- TRACK_SOURCE_1=春色小径　～ Colorful Path
+- TRACK_TITLE_2=巫
+- TRACK_SOURCE_2=永遠の巫女
+- TRACK_TITLE_3=篝
+- TRACK_SOURCE_3=少女綺想曲　～ Capriccio
+- TRACK_TITLE_4=遼
+- TRACK_SOURCE_4=少女綺想曲 ～ Dream Battle
+- TRACK_TITLE_5=朧
+- TRACK_SOURCE_5=Witching Dream
+- TRACK_TITLE_6=祷
+- TRACK_SOURCE_6=東方妖恋談
+- TRACK_TITLE_7=環
+- TRACK_SOURCE_7=二色蓮花蝶　～ Ancients
+- TRACK_TITLE_8=悠
+- TRACK_SOURCE_8=春色小径　～ Colorful Path
