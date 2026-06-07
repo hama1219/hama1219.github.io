@@ -1,39 +1,50 @@
-Angraecum.mdをコピーしてKomorebi.mdをdiscography配下へ生成してください。
-TITLEは木漏れ日の下でを設定してください。
-IMAGE_FILE_NAMEはkomorebi.jpgを設定してください
-EVENT_DATEは2019.05.05(日)
-EVENT_NAMEは博麗神社例大祭16
+Angraecum.mdをコピーしてTsuioku.mdをdiscography配下へ生成してください。
+TITLEは追憶を設定してください。
+IMAGE_FILE_NAMEはtsuioku.jpgを設定してください
+EVENT_DATEは2017.03.26(日)
+EVENT_NAMEは境界から視えた外界 -至-
 PRICEは￥1000
-SHOP_URL_BOOTHはhttps://touhougengakukyo.booth.pm/items/1362828
+SHOP_URL_BOOTHはhttps://touhougengakukyo.booth.pm/items/887732
 SHOP_LINK_TEXT_BOOTHは<img src="../assets/Booth.svg" />
 SHOP_URL_MELLONとSHOP_LINK_TEXT_MELLONは{NULL}
 を設定してください。
 変数のうち、TRACK_TITLEとTRACK_SOURCEへは、以下のリストを反映してください。TRACK_TITLE_{number}にTr.{Number}を、TRACK_SOURCE_{number}に原曲{number}を反映してください。
 
-Tr.1 黄昏時の夕暮
-原曲1 悠久の蒸気機関
-Tr.10 木漏れ日の下で
-原曲10 黒い海に紅く
-Tr.11 光風霽月
-原曲11 暁雲
-Tr.2 雀色時
-原曲2 死霊の夜桜
-Tr.3 天の夕餉
-原曲3 人形のある風景
-Tr.4 夕雲
-原曲4 緋想天
-Tr.5 暮方
-原曲5 有頂天変
-Tr.6 薄暮
-原曲6 少女綺想曲
-Tr.7 春宵
-原曲7 萃夢想
-Tr.8 望月
-原曲8 プレインエイジア・懐かしき東方の血
-Tr.9 彼者誰時
-原曲9 少女秘封倶楽部
+Tr.1 葡萄
+原曲1 イザナギオブジェクト
+Tr.2 夢想
+原曲2 宇宙に浮かぶ幻想郷
+Tr.3 清澄
+原曲3 最も澄みわたる空と海
+Tr.4 予兆
+原曲4 ラストオカルティズム
+Tr.5 星霜
+原曲5 過去の花
+Tr.6 蓮花
+原曲6 夜のデンデラ野を逝く
+Tr.7 泡沫
+原曲7 日本中の不思議を集めて
+Tr.8 星のお姫様
+原曲8 大空魔術
+Tr.9 称終
+原曲9 童祭
+Tr.10 彼岸
+原曲10 夜のデンデラ野を逝く
+Tr.11 惜別
+原曲11 童祭
+Tr.12 真実
+原曲12 ネクロファンタジア
+Tr.13 霜月
+原曲13 他愛も無い二人の博物誌
+Tr.14 悠遠
+原曲14 月面ツアーへようこそ
+Tr.15 独白
+原曲15 日本中の不思議を集めて
+Tr.16 都忘
+原曲16 大空魔術
+Tr.17 追憶
+原曲17 イザナギオブジェクト
 
-
-Komorebi.mdの生成が終わったら、そのままTemplete.htmlをベースにRurigiku.htmlを生成してください。
+Tsuioku.mdの生成が終わったら、そのままTemplete.htmlをベースにTsuioku.htmlを生成してください。
 
 

@@ -1,0 +1,45 @@
+# Tsuioku.html
+
+- IMAGE_FILE_NAME=tsuioku.jpg
+- TITLE=追憶
+- EVENT_DATE=2017.03.26(日)
+- EVENT_NAME=境界から視えた外界 -至-
+- PRICE=￥1000
+- SHOP_URL_MELLON={NULL}
+- SHOP_LINK_TEXT_MELLON={NULL}
+- SHOP_URL_BOOTH=https://touhougengakukyo.booth.pm/items/887732
+- SHOP_LINK_TEXT_BOOTH=<img src="../assets/Booth.svg" />
+- TRACK_TITLE_1=葡萄
+- TRACK_SOURCE_1=イザナギオブジェクト
+- TRACK_TITLE_2=夢想
+- TRACK_SOURCE_2=宇宙に浮かぶ幻想郷
+- TRACK_TITLE_3=清澄
+- TRACK_SOURCE_3=最も澄みわたる空と海
+- TRACK_TITLE_4=予兆
+- TRACK_SOURCE_4=ラストオカルティズム
+- TRACK_TITLE_5=星霜
+- TRACK_SOURCE_5=過去の花
+- TRACK_TITLE_6=蓮花
+- TRACK_SOURCE_6=夜のデンデラ野を逝く
+- TRACK_TITLE_7=泡沫
+- TRACK_SOURCE_7=日本中の不思議を集めて
+- TRACK_TITLE_8=星のお姫様
+- TRACK_SOURCE_8=大空魔術
+- TRACK_TITLE_9=称終
+- TRACK_SOURCE_9=童祭
+- TRACK_TITLE_10=彼岸
+- TRACK_SOURCE_10=夜のデンデラ野を逝く
+- TRACK_TITLE_11=惜別
+- TRACK_SOURCE_11=童祭
+- TRACK_TITLE_12=真実
+- TRACK_SOURCE_12=ネクロファンタジア
+- TRACK_TITLE_13=霜月
+- TRACK_SOURCE_13=他愛も無い二人の博物誌
+- TRACK_TITLE_14=悠遠
+- TRACK_SOURCE_14=月面ツアーへようこそ
+- TRACK_TITLE_15=独白
+- TRACK_SOURCE_15=日本中の不思議を集めて
+- TRACK_TITLE_16=都忘
+- TRACK_SOURCE_16=大空魔術
+- TRACK_TITLE_17=追憶
+- TRACK_SOURCE_17=イザナギオブジェクト
