@@ -2,7 +2,8 @@
 
 - IMAGE_FILE_NAME=Denebold.png
 - TITLE=Denebold
-- EVENT_DATE_AND_NAME=2023.9.3(日) 科学世紀のカフェテラス12
+- EVENT_DATE=2023.9.3(日)
+- EVENT_NAME=科学世紀のカフェテラス12
 - PRICE=￥1000
 - SHOP_URL=https://www.melonbooks.co.jp/detail/detail.php?product_id=2274427
 - SHOP_LINK_TEXT=委託（メロンブックス）
