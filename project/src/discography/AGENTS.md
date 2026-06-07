@@ -39,9 +39,5 @@ VALUE には通常の文字列・文章・URL を指定します。`{NULL}` を�
 - `title/Lobelia.md`
 - `title/Reminiscence.md`
 - `title/kagaribi.md`
-
-## 注意事項
-
-- 現在の `Reminiscence.html` には、テンプレートに存在しない YouTube iframe の試聴行があります。
-- テンプレート準拠で HTML を再作成する場合、この追加行は含めません。
-- 試聴行を共通仕様にする場合は、先に `project/src/Templete/Template.html` に変数とタグ構造を追加してから、対応する `title/*.md` に KEY=VALUE を追記してください。
+- `title/Denebold.md`
+- `title/BestofIzanagiObject.md`
