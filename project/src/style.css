@@ -30,6 +30,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  overflow-x: auto;
+  overflow-y: auto;
 }
 
 h1 {
@@ -157,4 +159,76 @@ font-family: "fot-tsukuaoldmin-pr6n",system-ui, Avenir, Helvetica, Arial, sans-s
 .new_release_track_list_table_inner{
    border-collapse: separate;
    border-spacing: 0.8em 0;
+}
+
+@media (max-width: calc(400px + 36em)) {
+  body {
+    display: block;
+    min-height: 100vh;
+    padding: 0 1rem 2rem;
+    box-sizing: border-box;
+  }
+
+  .title {
+    position: static;
+    font-size: clamp(2.4rem, 12vw, 5rem);
+    line-height: 1.1;
+    margin: 0.2em 0 0;
+  }
+
+  .header_line {
+    position: static;
+    width: 100%;
+    margin: 1rem 0 1.5rem;
+  }
+
+  .new_release_img {
+    position: static;
+    margin: 0 0 1.5rem;
+  }
+
+  .new_release_img img {
+    display: block;
+    width: min(100%, 400px);
+    height: auto;
+    max-width: 100%;
+    max-height: min(60vh, 400px);
+    object-fit: contain;
+  }
+
+  .new_release_info_table {
+    position: static;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .table_inner_title {
+    font-size: clamp(1.5rem, 7vw, 2rem);
+    line-height: 1.2;
+  }
+
+  .table_inner_event,
+  .table_inner_price,
+  .new_release_event_price_table_inner td {
+    font-size: clamp(1rem, 4.5vw, 1.3rem);
+  }
+
+  .new_release_info_table > table + table {
+    margin-top: 1.25rem;
+  }
+
+  .new_release_track_list_table_inner {
+    border-spacing: 0.4rem 0;
+  }
+
+  .new_release_track_list_table_inner td,
+  .new_release_event_price_table_inner td,
+  .new_release_info_table_inner td {
+    overflow-wrap: anywhere;
+  }
+
+  .table_inner_shop img {
+    max-width: min(180px, 45vw);
+    height: auto;
+  }
 }
