@@ -1,30 +1,29 @@
-Angraecum.mdをコピーしてsekibetsurenko.mdをdiscography配下へ生成してください。
-TITLEは星霜を設定してください。
-IMAGE_FILE_NAMEはsekibetsurenko.jpgを設定してください
-EVENT_DATEは2016年10月30日(日)
-EVENT_NAMEは科学世紀のカフェテラス6
+Angraecum.mdをコピーしてtwilight.mdをdiscography配下へ生成してください。
+TITLEはTwilightを設定してください。
+IMAGE_FILE_NAMEはtwilight.jpgを設定してください
+EVENT_DATEは2017年1月29日(日)
+EVENT_NAMEは紅のひろば14
 PRICEは￥500
-SHOP_URL_BOOTHはhttps://touhougengakukyo.booth.pm/items/817883
+SHOP_URL_BOOTHはhttps://touhougengakukyo.booth.pm/items/820204
 SHOP_LINK_TEXT_BOOTHは<img src="../assets/Booth.svg" />
-SHOP_URL_MELLONとSHOP_LINK_TEXT_MELLONは{NULL}
+SHOP_URL_MELLONは{NULL}
+SHOP_LINK_TEXT_MELLONは{NULL}
 を設定してください。
 変数のうち、TRACK_TITLEとTRACK_SOURCEへは、以下のリストを反映してください。
 
 TRACK_TITLE_{number}に以下の楽曲名を上から入れていってください。
-予兆
-鳥籠
-現葬
-真実
-独白
-惜別
+6:00PM
+8:00PM
+10:00PM
+11:00PM
+6:00AM
 
 TRACK_SOURCE_{number}に以下の原曲名を上から入れていってください。
-少女秘封倶楽部
-桜花之恋塚
-サーカスレヴァリエ
-魔術師メリー
-彼岸帰航
-少女秘封倶楽部
+魔法少女の百年祭
+U.Nオーエンは彼女なのか
+亡き王女の為のセプテット
+亡き王女の為のセプテット・ツェペシュの幼き末裔
+亡き王女の為のセプテット・U.Nオーエンは彼女なのか
 
-sekibetsurenko.mdの生成が終わったら、そのままTemplete.htmlをベースにsekibetsurenko.htmlを生成してください。
-また、生成後はsekibetsurenko.htmlの内容を、src/AGENTS.mdのDiscography.htmlのルールに則ってDiscography.htmlに追加してください。
+twilight.mdの生成が終わったら、そのままTemplete.htmlをベースにtwilight.htmlを生成してください。
+また、生成後はtwilight.htmlの内容を、src/AGENTS.mdのDiscography.htmlのルールに則ってDiscography.htmlに追加してください。

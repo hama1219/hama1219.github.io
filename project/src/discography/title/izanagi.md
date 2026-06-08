@@ -1,0 +1,21 @@
+# izanagi.html
+
+- IMAGE_FILE_NAME=izanagi.jpg
+- TITLE=伊弉諾
+- EVENT_DATE=2019年11月17日(日)
+- EVENT_NAME=科学世紀のカフェテラス9
+- PRICE=￥600
+- SHOP_URL_MELLON=https://www.melonbooks.co.jp/detail/detail.php?product_id=584012
+- SHOP_LINK_TEXT_MELLON=<img src="../assets/logo.png" />
+- SHOP_URL_BOOTH=https://touhougengakukyo.booth.pm/items/2700063
+- SHOP_LINK_TEXT_BOOTH=<img src="../assets/Booth.svg" />
+- TRACK_TITLE_1=黄泉国
+- TRACK_SOURCE_1=イザナギオブジェクト
+- TRACK_TITLE_2=黄泉平坂
+- TRACK_SOURCE_2=イザナギオブジェクト
+- TRACK_TITLE_3=意富加牟豆美
+- TRACK_SOURCE_3=イザナギオブジェクト
+- TRACK_TITLE_4=千曳の岩
+- TRACK_SOURCE_4=イザナギオブジェクト
+- TRACK_TITLE_5=伊弉諾
+- TRACK_SOURCE_5=イザナギオブジェクト
