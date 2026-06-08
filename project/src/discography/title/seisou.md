@@ -1,0 +1,23 @@
+# seisou.html
+
+- IMAGE_FILE_NAME=seisou.jpg
+- TITLE=星霜
+- EVENT_DATE=2015/02/21(日)
+- EVENT_NAME=境界から視えた外界-結
+- PRICE=￥500
+- SHOP_URL_MELLON={NULL}
+- SHOP_LINK_TEXT_MELLON={NULL}
+- SHOP_URL_BOOTH=https://touhougengakukyo.booth.pm/items/817532
+- SHOP_LINK_TEXT_BOOTH=<img src="../assets/Booth.svg" />
+- TRACK_TITLE_1=星霜
+- TRACK_SOURCE_1=過去の花
+- TRACK_TITLE_2=虚光
+- TRACK_SOURCE_2=緑のサナトリウム
+- TRACK_TITLE_3=泡沫
+- TRACK_SOURCE_3=日本中の不思議を集めて
+- TRACK_TITLE_4=蓮花
+- TRACK_SOURCE_4=夜のデンデラ野を逝く
+- TRACK_TITLE_5=葬列
+- TRACK_SOURCE_5=少女秘封俱楽部
+- TRACK_TITLE_6=称終
+- TRACK_SOURCE_6=童祭
