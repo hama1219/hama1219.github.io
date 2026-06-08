@@ -1,0 +1,21 @@
+# twilight.html
+
+- IMAGE_FILE_NAME=twilight.jpg
+- TITLE=Twilight
+- EVENT_DATE=2017年1月29日(日)
+- EVENT_NAME=紅のひろば14
+- PRICE=￥500
+- SHOP_URL_MELLON={NULL}
+- SHOP_LINK_TEXT_MELLON={NULL}
+- SHOP_URL_BOOTH=https://touhougengakukyo.booth.pm/items/820204
+- SHOP_LINK_TEXT_BOOTH=<img src="../assets/Booth.svg" />
+- TRACK_TITLE_1=6:00PM
+- TRACK_SOURCE_1=魔法少女の百年祭
+- TRACK_TITLE_2=8:00PM
+- TRACK_SOURCE_2=U.Nオーエンは彼女なのか
+- TRACK_TITLE_3=10:00PM
+- TRACK_SOURCE_3=亡き王女の為のセプテット
+- TRACK_TITLE_4=11:00PM
+- TRACK_SOURCE_4=亡き王女の為のセプテット・ツェペシュの幼き末裔
+- TRACK_TITLE_5=6:00AM
+- TRACK_SOURCE_5=亡き王女の為のセプテット・U.Nオーエンは彼女なのか
