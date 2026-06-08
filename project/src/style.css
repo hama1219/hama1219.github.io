@@ -2,6 +2,8 @@
   font-family: "fot-tsukuaoldmin-pr6n",system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  --new-release-img-left: 3em;
+  --new-release-info-offset: 35em;
 
   text-align: justify;
 
@@ -32,6 +34,7 @@ body {
   min-height: 100vh;
   overflow-x: auto;
   overflow-y: auto;
+  position: relative;
 }
 
 h1 {
@@ -105,21 +108,22 @@ button:focus-visible {
 .title{
 font-family: "fot-tsukuaoldmin-pr6n",system-ui, Avenir, Helvetica, Arial, sans-serif;
    font-size: 5em;
-   position: fixed;
+   position: absolute;
    top: 0.005em;
    left:0.2em;
 }
 
 .header_line{
-   position: fixed;
+   position: absolute;
    top: 7em;
    left:0.2em;
-   width:1000em
+   right: 0.2em;
+   width: auto;
 }
 .new_release_img{
-  position: fixed;
+  position: absolute;
    top: 10em;
-   left:3em; 
+   left: var(--new-release-img-left);
 }
 .new_release_img img{
    max-width: 400px;
@@ -128,9 +132,9 @@ font-family: "fot-tsukuaoldmin-pr6n",system-ui, Avenir, Helvetica, Arial, sans-s
    height: auto;
 }
 .new_release_info_table{
-    position: fixed;
+    position: absolute;
        top: 9em;
-          left:47em; 
+          left: calc(var(--new-release-img-left) + var(--new-release-info-offset));
 }
 .table_inner_title{
     font-size: 2.0em;
@@ -159,6 +163,9 @@ font-family: "fot-tsukuaoldmin-pr6n",system-ui, Avenir, Helvetica, Arial, sans-s
 .new_release_track_list_table_inner{
    border-collapse: separate;
    border-spacing: 0.8em 0;
+}
+.new_release_track_list_table_inner .tr_number{
+   white-space: nowrap;
 }
 
 @media (max-width: calc(400px + 36em)) {
