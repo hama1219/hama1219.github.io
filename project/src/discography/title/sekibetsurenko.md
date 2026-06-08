@@ -1,0 +1,23 @@
+# sekibetsurenko.html
+
+- IMAGE_FILE_NAME=sekibetsurenko.jpg
+- TITLE=惜別 -Renko side
+- EVENT_DATE=2016年10月30日(日)
+- EVENT_NAME=科学世紀のカフェテラス6
+- PRICE=￥500
+- SHOP_URL_MELLON={NULL}
+- SHOP_LINK_TEXT_MELLON={NULL}
+- SHOP_URL_BOOTH=https://touhougengakukyo.booth.pm/items/817883
+- SHOP_LINK_TEXT_BOOTH=<img src="../assets/Booth.svg" />
+- TRACK_TITLE_1=予兆
+- TRACK_SOURCE_1=少女秘封倶楽部
+- TRACK_TITLE_2=鳥籠
+- TRACK_SOURCE_2=桜花之恋塚
+- TRACK_TITLE_3=現葬
+- TRACK_SOURCE_3=サーカスレヴァリエ
+- TRACK_TITLE_4=真実
+- TRACK_SOURCE_4=魔術師メリー
+- TRACK_TITLE_5=独白
+- TRACK_SOURCE_5=彼岸帰航
+- TRACK_TITLE_6=惜別
+- TRACK_SOURCE_6=少女秘封倶楽部

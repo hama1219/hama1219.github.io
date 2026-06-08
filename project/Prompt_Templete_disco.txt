@@ -1,28 +1,30 @@
-Angraecum.mdをコピーしてizanami.mdをdiscography配下へ生成してください。
-TITLEは伊邪那美を設定してください。
-IMAGE_FILE_NAMEはizanami.jpgを設定してください
-EVENT_DATEは2019年11月17日(日)
-EVENT_NAMEは科学世紀のカフェテラス9
-PRICEは￥600
-SHOP_URL_BOOTHはhttps://touhougengakukyo.booth.pm/items/2700084
+Angraecum.mdをコピーしてsekibetsurenko.mdをdiscography配下へ生成してください。
+TITLEは星霜を設定してください。
+IMAGE_FILE_NAMEはsekibetsurenko.jpgを設定してください
+EVENT_DATEは2016年10月30日(日)
+EVENT_NAMEは科学世紀のカフェテラス6
+PRICEは￥500
+SHOP_URL_BOOTHはhttps://touhougengakukyo.booth.pm/items/817883
 SHOP_LINK_TEXT_BOOTHは<img src="../assets/Booth.svg" />
 SHOP_URL_MELLONとSHOP_LINK_TEXT_MELLONは{NULL}
 を設定してください。
 変数のうち、TRACK_TITLEとTRACK_SOURCEへは、以下のリストを反映してください。
 
 TRACK_TITLE_{number}に以下の楽曲名を上から入れていってください。
-加具土命
-黄泉津共食
-黄泉醜女
-黄泉大神
-伊邪那美
+予兆
+鳥籠
+現葬
+真実
+独白
+惜別
 
 TRACK_SOURCE_{number}に以下の原曲名を上から入れていってください。
+少女秘封倶楽部
+桜花之恋塚
+サーカスレヴァリエ
 魔術師メリー
-魔術師メリー
-魔術師メリー
-魔術師メリー
-魔術師メリー
+彼岸帰航
+少女秘封倶楽部
 
-izanami.mdの生成が終わったら、そのままTemplete.htmlをベースにizanami.htmlを生成してください。
-また、生成後はizanami.htmlの内容を、src/AGENTS.mdのDiscography.htmlのルールに則ってDiscography.htmlに追加してください。
+sekibetsurenko.mdの生成が終わったら、そのままTemplete.htmlをベースにsekibetsurenko.htmlを生成してください。
+また、生成後はsekibetsurenko.htmlの内容を、src/AGENTS.mdのDiscography.htmlのルールに則ってDiscography.htmlに追加してください。
