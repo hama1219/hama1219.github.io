@@ -1,0 +1,21 @@
+# izanami.html
+
+- IMAGE_FILE_NAME=izanami.jpg
+- TITLE=伊邪那美
+- EVENT_DATE=2019年11月17日(日)
+- EVENT_NAME=科学世紀のカフェテラス9
+- PRICE=￥600
+- SHOP_URL_MELLON={NULL}
+- SHOP_LINK_TEXT_MELLON={NULL}
+- SHOP_URL_BOOTH=https://touhougengakukyo.booth.pm/items/2700084
+- SHOP_LINK_TEXT_BOOTH=<img src="../assets/Booth.svg" />
+- TRACK_TITLE_1=加具土命
+- TRACK_SOURCE_1=魔術師メリー
+- TRACK_TITLE_2=黄泉津共食
+- TRACK_SOURCE_2=魔術師メリー
+- TRACK_TITLE_3=黄泉醜女
+- TRACK_SOURCE_3=魔術師メリー
+- TRACK_TITLE_4=黄泉大神
+- TRACK_SOURCE_4=魔術師メリー
+- TRACK_TITLE_5=伊邪那美
+- TRACK_SOURCE_5=魔術師メリー
