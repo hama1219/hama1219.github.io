@@ -60,6 +60,11 @@
 - 現在のレイアウトは、タイトル、ヘッダーライン、ジャケット画像、頒布情報テーブルに fixed position を使用しています。
 - `body`、`a`、`.title`、`.new_release_img`、`.new_release_info_table` などの共有セレクターを変更すると、`/main.ts` を読み込む全ページに影響します。
 
+## Discography.html
+- src直下にDiscography.htmlを生成します。基本は#HTMLページのルールに準拠します。
+- このHTMLには、discography/*.htmlから、以下の要素を取得して、table_inner_date要素の日付ごとに降順に上から並べていきます。
+- `new_release_img`,`new_release_info_table`から、`new_release_track_list_table_inner`と`table_inner_shop`を削除したもの
+
 ## 検証
 
 - このディレクトリ配下のリソースを変更した後は、production build を実行します。

@@ -3,6 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
   --new-release-img-left: 3em;
+  --new-release-content-top: 10em;
   --new-release-info-offset: 35em;
 
   text-align: justify;
@@ -122,7 +123,7 @@ font-family: "fot-tsukuaoldmin-pr6n",system-ui, Avenir, Helvetica, Arial, sans-s
 }
 .new_release_img{
   position: absolute;
-   top: 10em;
+   top: var(--new-release-content-top);
    left: var(--new-release-img-left);
 }
 .new_release_img img{
@@ -133,7 +134,7 @@ font-family: "fot-tsukuaoldmin-pr6n",system-ui, Avenir, Helvetica, Arial, sans-s
 }
 .new_release_info_table{
     position: absolute;
-       top: 9em;
+       top: var(--new-release-content-top);
           left: calc(var(--new-release-img-left) + var(--new-release-info-offset));
 }
 .table_inner_title{
@@ -164,8 +165,66 @@ font-family: "fot-tsukuaoldmin-pr6n",system-ui, Avenir, Helvetica, Arial, sans-s
    border-collapse: separate;
    border-spacing: 0.8em 0;
 }
-.new_release_track_list_table_inner .tr_number{
+.new_release_track_list_table_inner .tr_number,
+.new_release_track_list_table_inner .rtr_number{
    white-space: nowrap;
+}
+
+.discography_list {
+  display: grid;
+  gap: 2rem;
+  max-width: 980px;
+  margin: var(--new-release-content-top) 0 3rem var(--new-release-img-left);
+  justify-items: start;
+  text-align: left;
+}
+
+.discography_item {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+  justify-self: start;
+  width: 100%;
+}
+
+.discography_item + .discography_item {
+  border-top: 1px solid #777;
+  padding-top: 2rem;
+}
+
+.discography_list .new_release_img,
+.discography_list .new_release_info_table {
+  position: static;
+}
+
+.discography_list .new_release_img img {
+  display: block;
+  width: 100%;
+  max-width: 180px;
+  max-height: 180px;
+  object-fit: contain;
+}
+
+.discography_list .table_inner_title {
+  font-size: 1.5em;
+}
+
+.discography_list .new_release_info_table > table + table {
+  margin-top: 1rem;
+}
+
+@media (max-width: 680px) {
+  .discography_item {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .discography_list .new_release_img img {
+    width: min(100%, 240px);
+    max-width: 240px;
+    max-height: 240px;
+  }
 }
 
 @media (max-width: calc(400px + 36em)) {

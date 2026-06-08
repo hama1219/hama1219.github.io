@@ -41,6 +41,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(srcDir, 'index.html'),
+        discographyIndex: resolve(srcDir, 'Discography.html'),
         nested: resolve(srcDir, '20251122reminise/index.html'),
         download: resolve(srcDir, '20251122reminise/download.html'),
         ...getHtmlInputs(discographyDir, discographyDir, 'discography/'),
