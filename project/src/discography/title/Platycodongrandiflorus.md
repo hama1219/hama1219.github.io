@@ -1,0 +1,31 @@
+# Platycodongrandiflorus.html
+
+- IMAGE_FILE_NAME=Platycodongrandiflorus.jpg
+- TITLE=Platycodon grandiflorus
+- EVENT_DATE=2018.11.11(日)
+- EVENT_NAME=科学世紀のカフェテラス8
+- PRICE=￥1000
+- SHOP_URL_MELLON={NULL}
+- SHOP_LINK_TEXT_MELLON={NULL}
+- SHOP_URL_BOOTH=https://touhougengakukyo.booth.pm/items/1094961
+- SHOP_LINK_TEXT_BOOTH=<img src="../assets/Booth.svg" />
+- TRACK_TITLE_1=Prologue
+- TRACK_SOURCE_1=夢と現の境界
+- TRACK_TITLE_2=Olive
+- TRACK_SOURCE_2=イザナギオブジェクト
+- TRACK_TITLE_3=Pelargonium zonale
+- TRACK_SOURCE_3=未知の花 魅知の旅
+- TRACK_TITLE_4=Dactylorhiza aristata
+- TRACK_SOURCE_4=バーオールドアダム
+- TRACK_TITLE_5=Laurus nobilis
+- TRACK_SOURCE_5=ルーシットドリーマー
+- TRACK_TITLE_6=Lycoris radiata
+- TRACK_SOURCE_6=亡失のエモーション
+- TRACK_TITLE_7=Nepenthes
+- TRACK_SOURCE_7=魔術師メリー
+- TRACK_TITLE_8=Aconitum
+- TRACK_SOURCE_8=Aconitum
+- TRACK_TITLE_9=Shepherd's purse
+- TRACK_SOURCE_9=ラクトガール
+- TRACK_TITLE_10=Epilogue
+- TRACK_SOURCE_10=無間の鐘
