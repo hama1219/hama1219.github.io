@@ -12,7 +12,7 @@
   - 例: `Angraecum.html` の定義情報は `title/Angraecum.md` を参照します。
 - `project/src/Templete/Template.html` 内の置換用変数は `{KEY}` 形式で記載します。
 - HTML 生成時は、`title/*.md` の `KEY=VALUE` に対応するテンプレート内の `{KEY}` を VALUE に差し替え、出力 HTML には `{}` を残しません。
-- VALUE に `{NULL}` を定義した場合は、テンプレート上でその変数が含まれるタグに `hidden` 属性を付与して非表示にします。
+- VALUE に `{NULL}` を定義した場合、またはtitle/*.mdに定義されていないVALUEが存在する場合は、テンプレート上でその変数が含まれるタグに `hidden` 属性を付与して非表示にします。
 - `TRACK_TITLE_{Number}` と `TRACK_SOURCE_{Number}` の `{Number}` には数値が入ります。例えば `TRACK_TITLE_1` が定義されている場合は、HTML 内の `TRACK_TITLE_1` の値を差し替えます。
 - `project/src/Templete/Template.html` には `Number=1` のソースのみ存在します。`Number` に `2` 以上の数値が定義されている場合は、対応する変数の `table_inner_track_list_{Number}` クラスを持つタグ一式を追加し、値を差し替えます。
 - トラック行に `tr_number` クラスのタグが存在する場合は、`Number` と同じ数値で `Tr.{Number}` を設定します。例えば `table_inner_track_list_2` では `Tr.2` とします。
@@ -24,6 +24,7 @@
 ## 変数
 
 - IMAGE_FILE_NAME=ジャケット画像ファイル名
+- AUDIO_URL=サンプル音声リンクURL
 - TITLE=作品タイトル
 - EVENT_DATE=頒布日
 - EVENT_NAME=イベント名
@@ -34,6 +35,7 @@
 - SHOP_LINK_TEXT_BOOTH=BOOTH リンク表示文言
 - TRACK_TITLE_{Number}={Number}曲目の楽曲名
 - TRACK_SOURCE_{Number}={Number}曲目の出典・原曲名
+
 
 VALUE には通常の文字列・文章・URL を指定します。`{NULL}` を指定した場合、その変数を含むタグは `hidden` 属性で非表示にします。
 ただし、`IMAGE_FILE_NAME`、`TITLE`、`EVENT_DATE`、`EVENT_NAME`、`PRICE` は人間が記載すべき必須定義のため、`{NULL}` の指定を禁止します。

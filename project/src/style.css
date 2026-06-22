@@ -181,6 +181,7 @@ font-family: "fot-tsukuaoldmin-pr6n",system-ui, Avenir, Helvetica, Arial, sans-s
 }
 .new_release_event_price_table_inner td{
    font-size: 1.3em;
+   white-space: nowrap;
 }
 .new_release_event_price_table_inner tr{
    font-size: 1em;
@@ -340,7 +341,7 @@ font-family: "fot-tsukuaoldmin-pr6n",system-ui, Avenir, Helvetica, Arial, sans-s
   .new_release_track_list_table_inner td,
   .new_release_event_price_table_inner td,
   .new_release_info_table_inner td {
-    overflow-wrap: anywhere;
+    overflow-wrap: normal;
   }
 
   .table_inner_shop img {

@@ -5,6 +5,7 @@
 - EVENT_DATE=2024.12.31(火)
 - EVENT_NAME=コミックマーケット C105
 - PRICE=￥1000
+-
 - SHOP_URL_MELLON=https://www.melonbooks.co.jp/detail/detail.php?product_id=2741047
 - SHOP_LINK_TEXT_MELLON=<img src="../assets/logo.png" />
 - SHOP_URL_BOOTH={NULL}
