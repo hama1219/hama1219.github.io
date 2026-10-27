@@ -1,0 +1,27 @@
+# Edelweiss.html
+
+- IMAGE_FILE_NAME=Edelweiss.jpg
+- TITLE=Edelweiss
+- EVENT_DATE=2026.11.08(日)
+- EVENT_NAME=科学世紀のカフェテラス
+- PRICE=￥1000
+- SHOP_URL_MELLON={NULL}
+- SHOP_LINK_TEXT_MELLON={NULL}
+- SHOP_URL_BOOTH={NULL}
+- SHOP_LINK_TEXT_BOOTH={NULL}
+- TRACK_TITLE_1=Camellia
+- TRACK_SOURCE_1=あの賑やかな市場は今どこに
+- TRACK_TITLE_2=Fairy Primrose
+- TRACK_SOURCE_2=イザナギオブジェクト
+- TRACK_TITLE_3=Pasque Flower
+- TRACK_SOURCE_3=夢幻能　～ Taboo Marionette
+- TRACK_TITLE_4=Periwinkle
+- TRACK_SOURCE_4=地蔵だけが知る哀嘆
+- TRACK_TITLE_5=Magnolia
+- TRACK_SOURCE_5=幻想のホワイトトラベラー
+- TRACK_TITLE_6=White Poppy
+- TRACK_SOURCE_6=憑坐は夢と現の間に　～ Necro-Fantasia
+- TRACK_TITLE_7=Statice
+- TRACK_SOURCE_7=秘匿されたフォーシーズンズ
+- TRACK_TITLE_8=Edelweiss
+- TRACK_SOURCE_8=七夕坂に朝が来る
