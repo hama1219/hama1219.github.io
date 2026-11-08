@@ -5,8 +5,8 @@
 - EVENT_DATE=2026.11.08(日)
 - EVENT_NAME=科学世紀のカフェテラス
 - PRICE=￥1000
-- SHOP_URL_MELLON={NULL}
-- SHOP_LINK_TEXT_MELLON={NULL}
+- SHOP_URL_MELLON=https://www.melonbooks.co.jp/detail/detail.php?product_id=3930576
+- SHOP_LINK_TEXT_MELLON=<img src="../assets/logo.png" />
 - SHOP_URL_BOOTH={NULL}
 - SHOP_LINK_TEXT_BOOTH={NULL}
 - TRACK_TITLE_1=Camellia
